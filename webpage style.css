@@ -1,0 +1,467 @@
+ /*styling for TCS webpage*/
+
+ /*margin is space around the element border*/
+ /*padding is space between element border and element content*/
+
+*{
+   margin: 0.5px;          /*both line is applied in whole page*/
+   padding: 0.5px;
+}
+body{
+   background-color: black;
+}
+
+/*for styling navigation bar*/
+nav{
+   height: 10vh;   
+   width: 100%;
+   background-color: rgba(60, 57, 57, 0.73);
+   padding: 4px;
+}
+nav li a{
+   color: white;
+}
+nav ul logo.img{
+   float: left;
+}
+nav li{
+   float: left;
+   color: rgb(212, 229, 244);
+}
+nav li{
+   display: inline-block;
+   padding: 25px;
+   font-size: 20px;
+   margin-top: 10px;
+   padding: 8px;
+   cursor: pointer;
+}
+
+/*space between nav bar links*/
+.link{
+   padding: 4px;
+}
+.next-link {
+   display:inline-block;
+   font-size: 20px;
+   cursor: pointer;
+}
+.next-link{
+   float: right;
+}
+
+/*it will for Ratan Tata image8*/
+.image img{
+    height: 70%;
+    width: 90%;
+    padding: 1px;
+}.box{
+   padding-top: 30px;
+}
+
+/* style box*/
+.content1{
+   position: absolute;
+   width: 32%;
+   height: 40%;
+   background-color: gray;
+   left: 57%;
+   margin: 95px;
+}
+.box-para{
+   font-size: 34px;
+   color:white;
+   text-align: center;
+   padding: 4rem;
+}
+
+/* it is for styling small line left to box*/
+.content2{
+   float: left;
+   font-size: 23px;
+   color: gray;
+   margin: 9rem;
+}
+
+/*it is for next para*/
+.large{
+   float: left;
+   font-size: 48px;
+   color: white;
+   display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 5%;
+}
+
+/*it style"discover the tcs difference"*/
+.heading1{
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 100;
+   color: aliceblue;
+   border-bottom: 4px solid gray;
+   top: 64vh;
+   position: relative;
+}
+
+/*from here styling for two image assembled horizontally*/
+.new{
+   height: 40%;
+   width: 30%;
+}
+.first-image{
+   position: relative;
+   padding-top: 72px;
+   display: flex;
+   width: 30px;
+   padding-left: 5px;
+}
+.second-image{
+   position: relative;
+   padding-left: 3px;
+   display: flex;
+   padding-left: 3px;
+   width: 30px;
+}
+
+/*Insights by interest heading is style*/
+.heading2{
+   position: relative;
+   top: 6vh;
+   color: aliceblue;
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 100;
+   border-bottom: 4px solid gray;
+}
+
+/*rotational*/
+.rotate{
+   display: flex;
+}
+.maincontainer{
+   position: relative;
+   width: 455px;
+   height: 400px;
+   background: none;
+   top:44vh;
+   left: 17%;
+   transform: translate(-50%, -50%);
+   justify-items: baseline;
+   display: flex;
+ }
+.card{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   transform-style: preserve-3d;
+   transition: all 0.8s ease;
+}
+
+/*it will rotate the image 180deg*/
+.card:hover{
+   transform: rotateY(180deg);
+}
+
+/*it will style the front face of container*/
+.front-image{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   backface-visibility: hidden;
+   overflow: hidden;
+   color: #000;
+}
+.back-image{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   backface-visibility: hidden;
+   overflow: hidden;
+   background: #fafafa;
+   color: #333;
+   
+   transform: rotateY(180deg);
+ }
+.front-image img{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+}
+.back-image img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+}
+.front-image h1, .back-image h1{
+   font-family: 'zilla slab', sans-serif;
+   padding: 30px;
+   font-weight: bold;
+   font-size: 24px;
+   text-align: center;
+   color: black;
+   position: relative;
+   padding-top: 21rem;
+}
+
+/* styling of second rotational image*/
+.container1{
+   position: relative;
+   width: 455px;
+   height: 400px;
+   background: none;
+   top:44vh;
+   left:19%;
+   transform: translate(-50%, -50%);
+   justify-items: baseline;
+   display: flex;
+ }
+
+ /*styling of third rotational image*/
+.container2{
+      position: relative;
+      width: 455px;
+      height: 400px;
+      background: none;
+      top:44vh;
+      left:21%;
+      transform: translate(-50%, -50%);
+      justify-items: baseline;
+      display: flex;
+}
+
+/* style of big image assemble right side*/
+.coverage1{
+   top: 95%;
+   position:relative;
+   padding-top: 12%;
+   display: flex;
+}
+
+/*for backgroud change to white */
+.color {
+   height: 110vh;
+   width:100%;
+   background-color: white;
+}
+.right-image img{
+   height:90vh;
+   width: 70%;
+   display: flex;
+}
+
+/* styling of box whixh is on right image*/  
+.box-paragraph1{
+   position: absolute;
+   width: 630px;
+   height: 400px;
+   background-color: white;
+   top:38vh;
+   left:43%;
+   
+   color: #e91e63;                 /* for heading written inside box on image*/
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 80px;
+   padding-left: 60px;
+}
+.gray1{                           /* para wriiten inside box on image*/
+   padding-top: 30px;
+   color: gray;
+   font-size: 25px;
+   
+}
+.black1{                          /*get to know us*/
+   padding-top: 19px;
+   color: black;
+   font-size: 25px;
+}
+
+/*Belief in progress*/
+.heading3{
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   float: left;
+   border-bottom: 2px solid brown;
+   padding-top:60px;
+   color: black;
+}
+.box-image{
+   padding-top: 15vh;
+}
+
+/*style image1*/
+.static1{
+   position: relative;
+   width: 390px;
+   height: 450px;
+   display:inline-flex;
+   top: 18vh;
+   padding-left: 65px;
+   
+}
+.head1{             /*for heading on image1*/
+   position: absolute;
+   font-size: 40px;
+   color: white;
+   padding-top: 14rem;
+}
+.para1{                /* for para on image1*/
+   position: absolute;
+   font-size: 27px;
+   color:#ecc24f;
+   padding-top: 20rem;
+}
+
+/*style image2*/
+.static2{
+   position: relative;
+   width: 380px;
+   height: 450px;
+   display:inline-flex;
+   top: 18vh;
+   padding-left: 110px;
+   
+}
+.head2{                 /*heading on image2*/
+   position: absolute;
+   font-size: 35px;
+   color: white;
+   padding-top: 14rem;
+}
+.para2{                   /*para on image2*/
+   position: absolute;
+   font-size: 27px;
+   color:#ecc24f;
+   padding-top: 20rem;
+}
+
+/*style image3*/
+.static3{
+   position: relative;
+   width: 380px;
+   height: 450px;
+   display:inline-flex;
+   top: 18vh;
+   padding-left: 40px;
+}
+.head3{               /*heading on image3*/
+   position: absolute;
+   font-size: 37px;
+   color: white;
+   padding-top: 14rem;
+}
+.para3{               /*para on image3*/
+   position: absolute;
+   font-size: 27px;
+   color:#ecc24f;
+   padding-top: 20rem;
+}
+
+/*styling of big image assembled left side*/
+.left-image img{
+   height: 80vh;
+   width: 70%;
+   left: 30%;
+   position: relative;
+   padding-top:30vh;
+}
+
+/*style of box on the left image*/
+.box-paragraph2{
+   position: absolute;
+   width: 755px;
+   height: 405px;
+   background-color: white;
+   top:107rem;
+   left:4%;
+   font-size: 21px;              /* heading written inside the box on image*/
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 53px;
+   padding-left: 15px;
+   color: #e91e63;
+}
+.gray2{             /*para written inside box on image*/
+   padding-top: 22px;
+   color: gray;
+   font-size: 25px;
+}
+.black2{            /*get to know us*/
+   font-size: 25px;
+   color: black;
+   padding-top: 20px;
+}
+
+/*from here footer styling starts*/
+.class{
+   padding-top: 72vh;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+ul{
+   list-style: none;
+}
+.footer{
+   
+   padding: 92px 0;
+}
+.footer-col{
+   width: 24%;
+   padding: 0 5px;
+}
+.footer-col h4{
+   font-size: 21px;
+   color: #ffffff;
+   text-transform: capitalize;
+   margin-bottom: 30px;
+   font-weight: 500;
+   position: relative;
+}
+.footer-col h4::before{
+   content:'' ;
+   position:absolute;
+   left: 0;
+   bottom: -10px;
+   background-color: #e91e63;
+   height: 2px;
+   box-sizing: border-box;
+   width: 50px;
+}
+.footer-col ul li:not(:last-child){
+   margin-bottom: 10px;
+}
+.footer-col ul li a{
+   font-size: 16px;
+   text-transform: capitalize;
+   color: white;
+   text-decoration: none;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+   color:white;
+   padding-left: 8px;
+}
+
+/*icons are styled*/
+.footer-col .icons li{
+   display: inline-block;
+   color: white;
+   padding-left: 10px;
+}
+.footer-col .icons ul{
+   padding-top: 30px;
+}
